@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            input[type="text"] {
+                border: 5px solid sandybrown
+            }
+        
+            ol>li {
+                background-color: wheat
+            }
+        
+            h2+p {
+                background-color: khaki;
+                color: antiquewhite
+            }
+        
+            a:hover {
+                color: brown;
+            }
+        
+            li:nth-child(2) {
+                background-color: indianred;
+            }
+        
+            p:not(#i3) {
+                border: 5px solid wheat
+            }
+        
+            p::before {
+                content: "<<!@"
+                
+            }
+        
+            p::after {
+                content: "@!>>"
+            }
+
+            
+        
+        p::first-letter {
+                font-size: 60px;
+                color: darkslategrey;
+            }
+        </style>
+
+        <p id="i1">Hey there</p>   
+        <p id="i2">Hey there</p>
+        <b><p id="i3">Hey there</p></b>
+        <p id="i4">Hey there</p>
+    </head>
+
+<br><br>
+    <body>
+        more body text :)
+    </body>
+</html>
